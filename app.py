@@ -111,4 +111,10 @@ st.dataframe(df.sort_values(by='Savings', ascending=False), use_container_width=
 # Download button
 csv = df.to_csv(index=False)
 st.download_button('Download Savings CSV', csv, 'tax_savings.csv', 'text/csv')
-st.caption("2025 IRS brackets and deduction. For education only—not personal tax advice. Double check with your CPA before acting.")
+st.markdown("""
+---
+**⚠️ 2025 IRS brackets and deduction. This tool is for educational use only—_not_ personal tax, financial, or legal advice.  
+No guarantee of accuracy. Always double check with your CPA or tax advisor before making decisions.  
+By using this tool, you agree the creator is not liable for any actions, outcomes, or losses.**
+""")
+
