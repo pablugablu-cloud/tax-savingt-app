@@ -88,4 +88,3 @@ QBI_THRESHOLDS = {
     'single': 197300,
     'married': 394600,
 }
-}
