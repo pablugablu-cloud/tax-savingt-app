@@ -111,3 +111,4 @@ st.dataframe(df.sort_values(by='Savings', ascending=False), use_container_width=
 # Download button
 csv = df.to_csv(index=False)
 st.download_button('Download Savings CSV', csv, 'tax_savings.csv', 'text/csv')
+st.caption("2025 IRS brackets and deduction. For education only—not personal tax advice. Double check with your CPA before acting.")
