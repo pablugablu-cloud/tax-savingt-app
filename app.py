@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 from tax_data import FEDERAL_BRACKETS, STANDARD_DEDUCTION, SALT_CAP, HSA_LIMIT, FSA_LIMIT, RETIREMENT_LIMIT, CATCH_UP_LIMIT, QBI_THRESHOLDS
 
-st.set_page_config(page_title='2025 Tax Savings Calculator', layout='wide')
+st.set_page_config(page_title='2025 Tax Savings Projection', layout='wide')
 
-st.title('2025 Tax Savings Calculator')
+st.title('2025 Tax Savings Projection')
 
 # Side inputs
 st.sidebar.header('Client Information')
